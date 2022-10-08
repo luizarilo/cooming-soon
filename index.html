@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/00db6bab59.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Social Proof Section Master</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+</head>
+
+<body>
+  <header class="header">
+    <img class="image_header" src="images/logo.svg" alt="logo_image">
+  </header>
+
+  <section class="form_validation">
+    <h2 class="title">We are launching <span class="title_bold">soon!</span></h2>
+    <h6 class="subtitle">Subscribe and get notified</h6>
+    <form class="form">
+      <input class = "input" type="email" id = "email" placeholder="Your email adress...">
+      <span class = "error_email">Please provide a valid email adress</span>
+      <button type="button" class="button_submit" onclick = "validateEmail()">Notify Me</button>
+    </form>
+  </section>
+
+  <figure class="image_slack">
+    <img class="image_page" src="images/illustration-dashboard.png" alt="image slack">
+  </figure>
+
+  <footer class="footer">
+    <figure class="icon_social">
+      <div class="icons_container">
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
+      <div class="icons_container">
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <div class="icons_container">
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+
+    </figure>
+    <p>© Copyright Ping. All rights reserved.</p>
+  </footer>
+
+</body>
+<script src = "scripts.js"></script>
+</html>
